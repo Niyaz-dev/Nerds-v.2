@@ -1,0 +1,72 @@
+.modal-write-us{
+    &__title{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 50px;
+
+        font-size: 45px;
+        line-height: 45px;
+        font-weight: 500;
+        color: #000;
+    }
+    &__form-wrapper--left{
+        float: left;
+	    width: 360px;
+    }
+    &__form-wrapper--right{
+        float: right;
+        width: 360px;
+    }
+    &__label{
+        display: inline-block;
+        padding-bottom: 12px;
+
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #000;
+    }
+    &__text-area{
+        min-width: 100%;
+        max-width: 120%;
+        min-height: 114px;
+        max-height: 214px;
+    }
+    &__text-area,
+    &__input{
+        &:invalid{
+            border-color: #e74246;
+        }
+        &:invalid::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #e74246;
+        }
+        &:hover{
+            border-color: #b4b9bb;
+        }
+        &:focus{
+            border-color: #000;
+        }
+        &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #444;
+            opacity: 0.5; /* Firefox */
+        }
+        &:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #444444;
+            opacity: 1; /* Firefox */
+        }
+        box-sizing: border-box;
+        width: 100%;
+        padding: 14px;
+        margin-bottom: 35px;
+
+        font: inherit;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #000;
+
+        border: 2px solid #d7dcde;
+        border-radius: 1px;
+    }
+
+}

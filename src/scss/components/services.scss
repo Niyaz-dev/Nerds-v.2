@@ -1,0 +1,49 @@
+.services{
+    &__list{
+        display: flex;
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+    }
+    &__item{
+        width: 300px;
+        margin-right: 100px;
+        padding-top: 171px;
+
+        background: no-repeat top left;
+        &:last-child{
+            margin-right: 0;
+        }
+
+        &:nth-child(1){
+            background-image: url(../img/services/illustration-1.jpg);
+        }
+        
+        &:nth-child(2){
+            background-image: url(../img/services/illustration-2.jpg);
+        }
+        
+        &:nth-child(3){
+            background-image: url(../img/services/illustration-3.jpg);
+        }
+    }
+    &__title{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 16px;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #000;
+        text-transform: uppercase;
+    }
+    &__text{
+        width: 260px;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 32px;
+    }
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

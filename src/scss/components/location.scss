@@ -1,0 +1,45 @@
+.location{
+    &__map{
+	position: relative;
+
+	width: 1440px;
+	height: 416px;
+	margin: 0 auto;	
+    } 
+    &__write-us{
+        position: absolute;
+        top: 54px;
+        left: 140px;
+        padding: 50px;
+        padding-bottom: 47px;
+        background-color: #fff;
+    }
+    &__title{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 22px;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #000;
+        text-transform: uppercase;
+    }
+    &__adress,
+    &__phone-number{
+        width: 210px;
+        margin: 0;
+        padding: 0;
+    
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #666666;
+    }
+    &__phone-number{
+        margin-bottom: 36px;
+    }
+    &__adress{
+        margin-bottom: 19px; 
+    }
+    
+}

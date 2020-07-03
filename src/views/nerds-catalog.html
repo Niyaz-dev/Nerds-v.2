@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <title>Nerds-catalog</title>
+	<link rel="stylesheet" href="css/catalog-styles.min.css">
+</head>
+<body>
+    @@include('components/header-catalog.html')
+    <main class="catalog-page">
+        <h1 class="catalog-title">Магазин готовых шаблонов</h1>
+        <div class="wrapper container">
+            @@include('components/filters.html')
+            @@include('components/catalog.html')
+        </div>
+    </main>
+    <footer class="footer">
+		@@include('components/footer__location location.html')
+		@@include('components/footer__social social.html')
+	</footer>
+	@@include('components/modal modal-write-us.html')	
+	<script src="js/popup.js"></script>
+	<script src="js/webp.js"></script>
+</body>
+</html>

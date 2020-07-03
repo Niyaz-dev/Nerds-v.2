@@ -1,0 +1,71 @@
+.social{
+    &__title{
+        width: 560px;
+        margin: 0;
+        padding: 0;
+        order:2;
+
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #444444;
+    }
+    &__friend-text{
+        display: block;
+        margin-bottom: 10px;
+    
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 700;
+        color: #000;
+    }
+    &__list{
+        display: flex;
+        width: 260px;
+        margin: 0;
+        padding: 0;
+        margin-right: 140px;
+
+        line-height: 20px;
+
+        list-style: none;
+    }
+    &__link{
+        // &::before{
+        //     content:"";
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        
+        //     width: 80px;
+        //     height: 80px;
+        
+        //     border-radius: 50%;
+        //     background: transparent no-repeat 50% 50%;
+        // }
+        // &:active::before{
+        //     opacity: 0.3;
+        // }
+        // &--vk::before{
+        //     background-image: url(../img/social/vk-icon.svg);
+        // }
+        // position: relative;
+        // &--fb::before{
+        //     background-image: url(../img/social/fb-icon.svg);
+        // }
+        // &--in::before{
+        //     background-image: url(../img/social/insta-icon.svg);
+        // }
+        // width: 80px;
+        // height: 80px;
+        // padding: 0;
+        // margin-right: 10px;
+
+        // background: #e1e1e1 no-repeat 50% 50%;
+        // border-radius: 50%;
+    }
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 66px 0;
+}
