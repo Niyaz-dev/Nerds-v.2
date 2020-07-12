@@ -2,10 +2,10 @@
 .header{
     &__wrapper{
         display: flex;
+        padding-top: 49px;
     }
 
     &__logo-link{
-        padding-top: 49px;
         margin-right: 202px;
         width: 160px;
         height: 65px;
@@ -20,7 +20,7 @@
     &__navigation{
         display: flex;
         width: 640px;
-        padding-top: 75px;
+        padding-top: 26px;
 
 	    
     }
@@ -69,7 +69,7 @@
         position: relative;
 
         width: 160px;
-        padding-top: 76px;
+        padding-top: 27px;
         margin-left: auto;
 
         text-align: right;
