@@ -4,14 +4,20 @@ $slider-position-left:539px;
     &__radio-button{
         display: none;
     }
-    &__button{
+    &__controls{
         position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         bottom: 96px;
-        left: $slider-position-left;
         z-index: 100;
 
-        display: inline-block;
-        margin: 0 17px;
+        display: flex;
+        justify-content: space-between;
+        width: 88px;
+        height: 18px;
+    }
+    &__button{
+        position: relative;
         width: 18px;
         height: 18px;
 
@@ -19,12 +25,19 @@ $slider-position-left:539px;
         background-color: #fff;
 
         cursor: pointer;
-        &:nth-child(2){
-            left: $slider-position-left+35;
-        }
-        &:nth-child(3){
-            left: $slider-position-left+70;
-        }
+    }
+    #btn-1:checked ~ .slider__controls .slider__button[for="btn-1"]::before,
+    #btn-2:checked ~ .slider__controls .slider__button[for="btn-2"]::before,
+    #btn-3:checked ~ .slider__controls .slider__button[for="btn-3"]::before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+
+        width: 4px;
+        height: 4px;
+        border: 2px solid #c1c1c1;
+        border-radius: 50%;
     }
     &__inner{
         overflow: hidden;
@@ -45,21 +58,7 @@ $slider-position-left:539px;
     position: relative;
 }
 
-#btn-1:checked ~ .slider__controls .slider__button[for="btn-1"]::before,
-#btn-2:checked ~ .slider__controls .slider__button[for="btn-2"]::before,
-#btn-3:checked ~ .slider__controls .slider__button[for="btn-3"]::before {
-	content: "";
-	position: absolute;
 
-	top: 5px;
-	left: 5px;
-	display: inline-block;
-    width: 4px;
-    height: 4px;
-
-    border: 2px solid #c1c1c1;
-    border-radius: 50%;
-}
 
 #btn-1:checked ~ .slider__inner .slider__slides {
     transform: translate(0px);
