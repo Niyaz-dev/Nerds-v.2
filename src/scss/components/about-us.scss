@@ -25,9 +25,6 @@
         font-weight: 500;
         color: #000;
     }
-    &__sup-numbers{
-        font-size: 14px;
-    }
     &__praise-text{
         margin: 0;
         padding: 0;
@@ -76,9 +73,12 @@
         display: flex;
         margin: 0;
         padding: 0;
-        margin-top: 27px;
+        margin-top: 32px;
     
         list-style: none;
+    }
+    &__sup-numbers{
+        font-size: 26px;
     }
     &__indicators-item{
         width: 120px;
@@ -122,18 +122,18 @@
             width: 0;
             height: 0;
         }
-        &:nth-child(1),
-        &:nth-child(4){
+        &--academy,
+        &--mishka{
             width: 280px;
         }
-        &:nth-child(1){
+        &--academy{
             padding-right: 20px;
         }
-        &:nth-child(4){
+        &--mishka{
             padding-left: 20px;
         }
-        &:nth-child(2),
-        &:nth-child(3){
+        &--borodinski,
+        &--pink{
             width: 300px;
         }
         &:hover img{
