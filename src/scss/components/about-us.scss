@@ -160,5 +160,19 @@
             flex-direction: column;    
             align-items: center;    
         }
+        &__clients-list{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &__clients{
+            &:nth-child(2)::after{
+                display: none;
+            }
+            &--pink{
+                margin-left: -41px;
+            }
+            &--mishka{
+            }
+        }
     }
 }

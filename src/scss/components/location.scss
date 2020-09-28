@@ -43,3 +43,17 @@
     }
     
 }
+@media(max-width: $tablet-width){
+    .location{
+        &__map{
+            width: $tablet-width;
+            height: 416px;
+            margin: 0 auto;	
+            overflow: hidden;
+        } 
+        &__map-image{
+            max-width: none;
+            margin-left: -292px;
+        } 
+    }
+}
