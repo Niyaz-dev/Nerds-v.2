@@ -153,3 +153,12 @@
     border-top: 2px solid #eeeeee;
 	padding-bottom: 80px;
 }
+
+@media(max-width: $tablet-width){
+    .about-us{
+        &__wrapper{
+            flex-direction: column;    
+            align-items: center;    
+        }
+    }
+}

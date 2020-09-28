@@ -41,3 +41,24 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+@media(max-width: $tablet-width){
+    .services{
+        &__image{
+            width: 300px*$multi;
+            height: 146px*$multi;
+        }
+        &__item{
+            width: 200px;
+            margin-right: 34px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        &__text{
+            width: auto;   
+        }
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
