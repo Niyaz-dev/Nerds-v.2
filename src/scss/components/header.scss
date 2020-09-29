@@ -130,6 +130,13 @@
             }
         }
         font-size: 14px;
-	    line-height: 25px;
+        line-height: 25px;
+        min-width: $tablet-width;
+    }
+}
+
+@media(max-width: $tablet-width) {
+    &__wrapper{
+        // flex-wrap: wrap;
     }
 }

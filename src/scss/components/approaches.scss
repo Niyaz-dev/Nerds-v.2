@@ -25,3 +25,9 @@
     }
     background-color: #eeeeee;
 }
+
+@media(max-width: $desktop-width){
+    .approaches{
+        min-width: $tablet-width;
+    }
+}
