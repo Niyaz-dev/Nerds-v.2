@@ -165,7 +165,7 @@
 	padding-top: 56px;
 }
 
-@media(max-width: $tablet-width){
+@media(max-width: $desktop-width){
     .catalog{
         &__show-filters{
             display: block;
@@ -204,8 +204,7 @@
             width: $catalog-item-width;
 
             bottom: 0px;
-    
-            height: 231px;
+            height: 250px;
         }
     }
 }

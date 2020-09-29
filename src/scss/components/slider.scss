@@ -72,7 +72,7 @@ $slider-position-left:539px;
     transform: translate(-2320px);
   }
 
-  @media(max-width: $tablet-width){
+  @media(max-width: $desktop-width){
     .slider{
         &__item {
             width: 668px;

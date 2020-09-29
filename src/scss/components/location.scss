@@ -43,7 +43,7 @@
     }
     
 }
-@media(max-width: $tablet-width){
+@media(max-width: $desktop-width){
     .location{
         &__map{
             width: $tablet-width;
