@@ -132,8 +132,12 @@
 	margin-right: 140px;
 }
 
-// @media(max-width: $tablet-width){
-//     .filters{
-//         display: none;
-//     }
-// }
+@media(max-width: $tablet-width){
+    .filters{
+        display: none;
+    }
+
+    .show-filter{
+        display: block;
+    }
+}

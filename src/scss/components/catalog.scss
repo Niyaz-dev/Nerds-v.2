@@ -1,6 +1,7 @@
 .catalog{
     &__sorting{
         display: flex;
+        // flex-wrap: wrap;
         -ms-align-items: baseline;
         align-items: baseline;
         margin-bottom: 53px;
@@ -157,6 +158,23 @@
     &__pagination-page{     
         margin-right: 11px;
     }
+    &__show-filters{
+        display: none;
+    }
 	width: 760px;
 	padding-top: 56px;
+}
+
+@media(max-width: $tablet-width){
+    .catalog{
+        &__show-filters{
+            display: block;
+            margin-right: 40px;
+        }
+        &__sorting-text{
+            width: 160px;
+            margin-right: 0px;
+
+        }
+    }
 }
