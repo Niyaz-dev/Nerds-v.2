@@ -4,8 +4,8 @@
 	padding-bottom: 73px;
 }
 
-// @media(max-width: $tablet-width){
-//     .wrapper{
-//         flex-direction: column;
-//     }
-// }
+@media(max-width: $tablet-width){
+    .wrapper{
+        position: relative;
+    }
+}
