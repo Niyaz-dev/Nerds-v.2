@@ -265,6 +265,12 @@
 
                 transform: translateX(-50%);
             }
+            &--current::before{
+                width: 85px;
+                height: 2px;
+                bottom: 12px;
+                left: 1px;
+            }
         }
         &__basket{
             display: flex;

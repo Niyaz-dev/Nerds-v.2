@@ -31,3 +31,18 @@
         min-width: $tablet-width;
     }
 }
+@media(max-width: $tablet-width){
+    .approaches{
+        &__title{
+            margin: 0;
+            padding: 0;
+            padding-bottom: 18px;
+    
+            font-size: 21px;
+            line-height: normal;
+            font-weight: 500;
+            color: #000;
+        }
+        background-color: #fff;
+    }
+}
