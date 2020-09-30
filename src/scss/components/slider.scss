@@ -95,6 +95,20 @@ $slider-position-left:539px;
 }
   @media(max-width: $tablet-width){
     .slider{
+        &::after{
+            content: '';
+
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+
+            width: 320px;
+            height: 2px;
+
+            background-color: #ccc;
+
+            transform: translateX(-50%);
+        }
         &__item {
             width: 320px;
             padding: 10px;
@@ -102,12 +116,13 @@ $slider-position-left:539px;
             background-size: 70%;
         }
         &__controls{
-            bottom: 25px;
+            bottom: 32px;
             width: 163px;
         }
         &__button{
             background-color: rgba(204, 204, 204, 0.233);
         }
+        margin-top: 20px;
         height: 330px;
     } 
     #btn-1:checked ~ .slider__inner .slider__slides {
