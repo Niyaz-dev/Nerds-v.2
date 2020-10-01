@@ -57,3 +57,27 @@
         } 
     }
 }
+@media(max-width: $tablet-width){
+    .location{
+        &__map{
+            width: 320px;
+            padding-left: 30px;
+            padding-right: 30px;
+            // height: 416px;
+            height: auto;
+        } 
+        &__map-image{
+            margin-left: -189px;
+            width: 631px;
+        } 
+        &__write-us{
+            position: static;
+            // top: 54px;
+            // left: 140px;
+            // padding: 50px;
+            // padding-bottom: 47px;
+            // background-color: #fff;
+        }
+        
+    }
+}

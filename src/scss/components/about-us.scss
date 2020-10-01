@@ -195,5 +195,19 @@
         &__indicators{
             width: 320px;  
         }
+        &__clients-list{
+            
+            flex-direction: column;
+            align-items: center;
+        }
+        &__clients{
+            &::after{
+                display: none;
+            }
+            margin: 0;
+            padding: 0;
+
+            padding-bottom: 39px;
+        }
     }
 }
