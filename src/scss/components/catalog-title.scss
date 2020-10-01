@@ -17,4 +17,15 @@
         min-width: $tablet-width;
     }
 }
+@media(max-width: $tablet-width){
+    .catalog-title{
+        min-width: 380px;
+        width: 320px;
+        margin: 0 auto;
+
+        // text-align: center;
+
+        background-color: #fff;
+    }
+}
 

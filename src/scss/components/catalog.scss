@@ -208,3 +208,34 @@
         }
     }
 }
+@media(max-width: $tablet-width){
+    .catalog{
+        &__sorting{
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 53px;
+        }
+        &__sorting-text{
+            width: auto;
+            margin-bottom: 10px;
+        }
+        &__show-filters{
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        &__sorting-direction{
+            margin: 0;
+            padding: 10px;
+        }
+        &__pagination-list{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__pagination-item{
+            margin-bottom: 13px;
+        }
+        width: 320px;
+        padding: 0;
+    }
+}

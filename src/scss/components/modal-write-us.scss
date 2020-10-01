@@ -72,3 +72,17 @@
     }
 
 }
+@media(max-width: $tablet-width) {
+    .modal-write-us{
+        &__text-area,
+        &__input{
+            width: 300px;
+            min-width: auto;
+        }
+        &__form-submit{
+            margin-top: 20px;
+            margin-left: 21px;
+        }
+        // display: flex;  
+    }
+}

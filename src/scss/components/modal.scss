@@ -54,3 +54,18 @@
         padding: 50px 50px;
     }
 }
+@media(max-width: $tablet-width) {
+    .modal{
+        &--show{
+            display: flex;
+        }
+        &__close{
+            top: 25px;
+            right: 25px;
+        }
+        // display: none;
+        width: 320px;
+        
+        padding: 50px 30px;
+    }
+}
