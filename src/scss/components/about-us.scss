@@ -176,3 +176,24 @@
         }
     }
 }
+@media(max-width: $tablet-width){
+    .about-us{
+        &__words{
+            padding-top: 74px;
+            width: 320px;
+        }
+        &__lead-text{
+            margin: 0;
+            margin-bottom: 33px;
+        
+            font-size: 28px;
+            line-height: 45px;
+            font-weight: 500;
+            color: #000;
+            text-align: center;
+        }
+        &__indicators{
+            width: 320px;  
+        }
+    }
+}
