@@ -2,7 +2,7 @@
 # Nerds-v.2
 Adaptive website of "Nerds" design studio
 <div align="center" >
-  <a href="https://niyaz-dev.github.io/Nerds-v.2/">
+  <a href="https://niyaz-dev.github.io/Nerds-v.2/index.html">
     <img width="260" alt="Nerds" src="https://user-images.githubusercontent.com/60061013/87249981-d6f24300-c46a-11ea-8105-dc0dcf17e0f7.jpg">                                                              
   </a>
   <a href="https://niyaz-dev.github.io/Nerds-v.2/nerds-catalog.html">
@@ -28,4 +28,4 @@ $ gulp build
 ```
 
 ### Live Demo
-Web-page is deployed on github-pages and aviable by links: [Nerds-main](https://niyaz-dev.github.io/Nerds-v.2/) and  [Nerds-catalog](https://niyaz-dev.github.io/Nerds-v.2/nerds-catalog.html)
+Web-page is deployed on github-pages and aviable by links: [Nerds-main](https://niyaz-dev.github.io/Nerds-v.2/index.html) and  [Nerds-catalog](https://niyaz-dev.github.io/Nerds-v.2/nerds-catalog.html)
