@@ -1,6 +1,6 @@
 
 # Nerds-v.2
-
+Adaptive website of "Nerds" design studio
 <div align="center" >
   <a href="https://niyaz-dev.github.io/Nerds-v.2/">
     <img width="260" alt="Nerds" src="https://user-images.githubusercontent.com/60061013/87249981-d6f24300-c46a-11ea-8105-dc0dcf17e0f7.jpg">                                                              
