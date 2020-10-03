@@ -23,6 +23,8 @@ Adaptive website of "Nerds" design studio
 ### Building and requirements
 The project is built using node [Node.js](https://nodejs.org/). To compile the project enter the following commands in terminal:
 ```
+$ cd Nerds-v.2
+$ npm install gulp -g
 $ npm install
 $ gulp build
 ```
