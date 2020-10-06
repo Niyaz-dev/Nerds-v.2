@@ -26,8 +26,9 @@ The project is built using node [Node.js](https://nodejs.org/). To compile the p
 $ cd Nerds-v.2
 $ npm install gulp -g
 $ npm install
-$ gulp build
 ```
+* enter `$ gulp build` to build project
+* enter `$ gulp` to build project with active watcher
 
 ### Live Demo
 Web-page is deployed on github-pages and aviable by links: [Nerds-main](https://niyaz-dev.github.io/Nerds-v.2/index.html) and  [Nerds-catalog](https://niyaz-dev.github.io/Nerds-v.2/nerds-catalog.html)
